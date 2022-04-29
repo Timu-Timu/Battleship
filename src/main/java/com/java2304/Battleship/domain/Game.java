@@ -3,10 +3,10 @@ package com.java2304.Battleship.domain;
 import java.util.Date;
 
 public class Game {
-    Long id;
-    Player firstPlayer;
-    Player secondPlayer;
-    Date date;
+    private Long id;
+    private Player firstPlayer;
+    private Player secondPlayer;
+    private Date date;
 
     public Game() {
     }
