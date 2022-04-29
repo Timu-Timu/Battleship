@@ -1,5 +1,8 @@
 package com.java2304.Battleship.domain;
 
+import com.java2304.Battleship.enums.CellDeck;
+import com.java2304.Battleship.enums.CellStatus;
+
 public class Cell {
     private Long id;
     private int x;
